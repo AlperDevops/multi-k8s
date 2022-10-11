@@ -3,7 +3,7 @@ kind: Certificate
 metadata:
   name: kznconstruction-com-tls
 spec:
-  secretName: kznconstruction-com-tls
+  secretName: kznconstruction-com
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
